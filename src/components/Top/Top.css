@@ -1,0 +1,85 @@
+.col-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.section-top {
+  padding-top: 130px;
+  padding-bottom: 50px;
+  background-color: var(--bg-primary);
+}
+
+.top-left {
+  margin-top: 70px;
+}
+
+.first-text {
+  font-weight: 200;
+}
+
+.greeting-text {
+  font-weight: 100;
+}
+
+.schoolName-text {
+  font-size: 35px;
+  margin-top: -25px;
+  margin-bottom: 35px;
+  background: -webkit-linear-gradient(#ffdc68, #ecca4d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.desc-text {
+  margin-bottom: 30px;
+  width: 75%;
+  line-height: 170%;
+}
+
+.hastag-text {
+  letter-spacing: 5px;
+  font-size: 35px;
+  font-weight: 200;
+}
+
+.btn-primary {
+  color: var(--text-light);
+  /* background-color: var(--primary); */
+  color: var(--text-dark);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 243, 53, 1) 0%,
+    rgba(255, 196, 55, 1) 59%
+  );
+  border: 1px solid #f5c419;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Lexend", sans-serif;
+  font-size: 19px;
+  margin-top: 10px;
+}
+
+.btn-secondary {
+  color: #eee349;
+  background: transparent;
+  border: 2px solid #f5c419;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Lexend", sans-serif;
+  font-size: 19px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.top-right {
+  justify-content: end;
+}
+
+.top-image {
+  float: right;
+}
